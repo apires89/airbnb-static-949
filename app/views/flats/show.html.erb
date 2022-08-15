@@ -1,0 +1,9 @@
+<h1><%= @flat["name"] %>!</h1>
+
+<h2><%= @flat["price"] %> <%= @flat["priceCurrency"] %></h2>
+
+<%= image_tag @flat["imageUrl"], width: 800 %>
+
+<%= link_to root_path do %>
+  <%= image_tag "https://i2.wp.com/www.matuloo.com/wp-content/uploads/2017/02/backbutton.png?fit=800%2C400" %>
+<% end %>
